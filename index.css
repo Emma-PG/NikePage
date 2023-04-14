@@ -2,7 +2,7 @@
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -10,7 +10,9 @@ header {
     width: 100%;
     background-color: white;
     border-bottom: 1px solid rgb(0, 0, 0, 0.1);
-    
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 nav {
@@ -42,7 +44,13 @@ nav ul li a {
     
 }
 
+nav ul li a:hover {
+    color: #91bee2;
+    
+}
+
 .Main {
+    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -63,6 +71,7 @@ nav ul li a {
 
 .Home h1 {
     padding: 10px;
+    font-size: 38px;
 }
 
 .Questions{
@@ -74,6 +83,10 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     gap: 100px;
+}
+
+.Questions h1{
+    font-size: 38px;
 }
 
 .Questions .box{
@@ -128,6 +141,7 @@ nav ul li a {
 }
 .About h1{
     margin-bottom: 20px;
+
 }
 
 .About .aside {
@@ -138,6 +152,10 @@ nav ul li a {
     text-align: justify;
     padding: 30px;
 
+}
+
+.About .aside h1{
+    font-size: 38px;
 }
 
 .About .aside h3{
@@ -173,9 +191,13 @@ nav ul li a {
     gap: 100px;
     width: 100%;
 }
+.Contact h1{
+    font-size: 38px;
+}
 
 .Contact h2{
     margin: 10px;
+
 }
 
 .form-content{
@@ -187,8 +209,34 @@ nav ul li a {
     justify-content: space-evenly;
     align-items: center;
 }
+.form-content h3{
+    font-size: 30px;
+}
 .form-content label{
     margin-right: 5px;
+    font-size: 20px;
+}
+.form-content input{
+    margin-right: 5px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    transition: border .5s ease;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.1);
+}
+.form-content textarea{
+   border: none;
+   outline: none;
+   border-bottom: 2px solid rgb(0, 0, 0, 0.1);
+   transition: border .5s ease;
+}
+.form-content textarea:focus{
+
+    border-bottom: 2px solid rgb(0, 0, 0, 0.9);
+ }
+
+.form-content input:focus{
+    border-bottom: 2px solid rgb(0, 0, 0, 0.9);
 }
 
 .form{
@@ -216,9 +264,11 @@ nav ul li a {
     justify-content: center;
     text-align: center;
     width: 100%;
-    background-color: #FFF5FF;
+    background-color: #212121;
     height: 20vh;
     gap: 10px;
+    color: antiquewhite;
+    font-size: 20px;
 }
 .Footer .social {
     display: flex;
@@ -230,7 +280,7 @@ nav ul li a {
 .Footer .social .box{
     width: 40px;
     height: 40px;
-    box-shadow: 4px 4px  rgb(0, 0, 0, 0.1);
+    box-shadow: 4px 4px  rgba(255, 255, 255, 0.1);
 }
 .Footer .social .box:hover{
     cursor: pointer;
@@ -247,6 +297,10 @@ nav ul li a {
 
 }
 
+.Shop-Section h1{
+    font-size: 38px;
+}
+
 .Card {
     width: 300px;
     display: flex;
@@ -256,19 +310,30 @@ nav ul li a {
     gap: 10px;
     padding: 0 19px 0 0;
     margin: 10px;
+    
+}
+.Card img:hover{
+    object-fit: scale-down;
+    transform: scale(0.8);
+    cursor: pointer;
 }
 
 .box {
-    background-color: antiquewhite;
+    background-color: #91bee2;
     width: 300px;
     height: 300px;
     box-shadow: 4px 4px  rgb(0, 0, 0, 0.1);
+    transition:transform .5s ease
 }
 
 .Button {
     padding: 10px;
     border: none;
     border-radius: 1em;
+}
+
+.Button:hover {
+    cursor: pointer;
 }
 
 .container {
@@ -317,4 +382,5 @@ nav ul li a {
     height: 510px;
     width: 770px;
 }
+
 
