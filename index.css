@@ -1,26 +1,29 @@
-html * {
+*{
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+
 header {
+    width: 100%;
     background-color: white;
     border-bottom: 1px solid rgb(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
+    
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 60%;
+    margin-right: 20px;
 }
 
 nav img {
     width: 150px;
+    margin-left: 20px;
 }
 
 nav ul {
@@ -28,15 +31,19 @@ nav ul {
     flex-direction: row;
     gap: 20px;
     list-style: none;
+  
+    
 }
 
 nav ul li a {
     text-decoration: none;
     font-size: 2em;
     color: black;
+    
 }
 
 .Main {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,23 +57,64 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 
 }
 
 .Home h1 {
     padding: 10px;
 }
+
 .Questions{
     border-top: 1px solid rgb(0, 0, 0, 0.1);
     height: 100vh;
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 100px;
 }
 
+.Questions .box{
+    width: 480px;
+    height: 144px;
+}
+
+.Question-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+}
+.Questions-content-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    text-align: justify;
+    padding: 30px;
+    gap: 40px;
+}
+
+.Questions-content-1 h3{
+    margin-bottom: 15px;
+}
+
+.Questions-content-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    text-align: justify;
+    padding: 30px;
+    gap: 40px;
+}
+.Questions-content-2 h3{
+    margin-bottom: 15px;
+}
 
 .About {
     border-top: 1px solid rgb(0, 0, 0, 0.1);
@@ -122,7 +170,7 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 100px;
     width: 100%;
 }
 
@@ -168,7 +216,7 @@ nav ul li a {
     justify-content: center;
     text-align: center;
     width: 100%;
-    background-color: azure;
+    background-color: #FFF5FF;
     height: 20vh;
     gap: 10px;
 }
@@ -184,6 +232,9 @@ nav ul li a {
     height: 40px;
     box-shadow: 4px 4px  rgb(0, 0, 0, 0.1);
 }
+.Footer .social .box:hover{
+    cursor: pointer;
+}
 
 .Shop-Section {
     border-top: 1px solid rgb(0, 0, 0, 0.1);
@@ -192,7 +243,7 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 100px;
 
 }
 
@@ -266,3 +317,4 @@ nav ul li a {
     height: 510px;
     width: 770px;
 }
+
