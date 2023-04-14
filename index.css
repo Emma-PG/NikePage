@@ -56,6 +56,16 @@ nav ul li a {
 .Home h1 {
     padding: 10px;
 }
+.Questions{
+    border-top: 1px solid rgb(0, 0, 0, 0.1);
+    height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
 
 
 .About {
@@ -89,10 +99,10 @@ nav ul li a {
 .About .c {
     display: flex;
     justify-content: center;
-    width: 50%;
-    padding: 30px;
+    padding: 10px;
 
 }
+
 .About .c h3{
     margin: 10px 0 20px 0;
 }
@@ -100,10 +110,11 @@ nav ul li a {
 .About .c .box {
     width: 700px;
     height: 700px;
+    box-shadow: 4px 4px  rgb(0, 0, 0, 0.1);
 }
 
 .Contact {
-    height: 100vh;
+    height: 80vh;
     border-top: 1px solid rgb(0, 0, 0, 0.1);
     height: 100vh;
     height: 100vh;
@@ -112,6 +123,66 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     gap: 1em;
+    width: 100%;
+}
+
+.Contact h2{
+    margin: 10px;
+}
+
+.form-content{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form-content label{
+    margin-right: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input{
+    width: 300px;
+
+}
+
+
+.Contact-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: azure;
+    height: 20vh;
+    gap: 10px;
+}
+.Footer .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.Footer .social .box{
+    width: 40px;
+    height: 40px;
+    box-shadow: 4px 4px  rgb(0, 0, 0, 0.1);
 }
 
 .Shop-Section {
@@ -140,6 +211,7 @@ nav ul li a {
     background-color: antiquewhite;
     width: 300px;
     height: 300px;
+    box-shadow: 4px 4px  rgb(0, 0, 0, 0.1);
 }
 
 .Button {
@@ -180,4 +252,17 @@ nav ul li a {
 }
 .thanks{
     color: rgb(218, 102, 102);
+}
+
+.mapouter {
+    position: inherit;
+    text-align: right;
+    height: 510px;
+    width: 770px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 510px;
+    width: 770px;
 }
