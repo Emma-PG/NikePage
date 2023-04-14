@@ -1,0 +1,183 @@
+html * {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60%;
+}
+
+nav img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Home h1 {
+    padding: 10px;
+}
+
+
+.About {
+    border-top: 1px solid rgb(0, 0, 0, 0.1);
+    height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.About h1{
+    margin-bottom: 20px;
+}
+
+.About .aside {
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding: 30px;
+
+}
+
+.About .aside h3{
+    margin: 10px 0 20px 0;
+}
+
+.About .c {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 30px;
+
+}
+.About .c h3{
+    margin: 10px 0 20px 0;
+}
+
+.About .c .box {
+    width: 700px;
+    height: 700px;
+}
+
+.Contact {
+    height: 100vh;
+    border-top: 1px solid rgb(0, 0, 0, 0.1);
+    height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.Shop-Section {
+    border-top: 1px solid rgb(0, 0, 0, 0.1);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+}
+
+.Card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    gap: 10px;
+    padding: 0 19px 0 0;
+    margin: 10px;
+}
+
+.box {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+}
+
+.Button {
+    padding: 10px;
+    border: none;
+    border-radius: 1em;
+}
+
+.container {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-rows: 1.6fr;
+    gap: 0px 0px;
+}
+
+.shop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "a b c"
+        "a b c"
+        "a b c";
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.a {
+    grid-area: a;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+.thanks{
+    color: rgb(218, 102, 102);
+}
