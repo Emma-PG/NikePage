@@ -327,13 +327,17 @@ nav ul li a:hover {
 }
 
 .Button {
+    margin-top: 10px;
     padding: 10px;
     border: none;
-    border-radius: 1em;
+    border-radius: .2em;
+    font-size: 18px;
 }
 
 .Button:hover {
     cursor: pointer;
+    color: antiquewhite;
+    background-color: #212121;
 }
 
 .container {
@@ -383,4 +387,7 @@ nav ul li a:hover {
     width: 770px;
 }
 
+.Buy-shoes{
+    
+}
 
