@@ -1,4 +1,4 @@
-*{
+* {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
@@ -33,24 +33,24 @@ nav ul {
     flex-direction: row;
     gap: 20px;
     list-style: none;
-  
-    
+
+
 }
 
 nav ul li a {
     text-decoration: none;
     font-size: 2em;
     color: black;
-    
+
 }
 
 nav ul li a:hover {
     color: #91bee2;
-    
+
 }
 
 .Main {
-    
+
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 5px;
 
 }
 
@@ -74,7 +74,7 @@ nav ul li a:hover {
     font-size: 38px;
 }
 
-.Questions{
+.Questions {
     border-top: 1px solid rgb(0, 0, 0, 0.1);
     height: 100vh;
     height: 100vh;
@@ -85,16 +85,16 @@ nav ul li a:hover {
     gap: 100px;
 }
 
-.Questions h1{
+.Questions h1 {
     font-size: 38px;
 }
 
-.Questions .box{
+.Questions .box {
     width: 480px;
     height: 144px;
 }
 
-.Question-box{
+.Question-box {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -102,7 +102,8 @@ nav ul li a:hover {
     gap: 35px;
 
 }
-.Questions-content-1{
+
+.Questions-content-1 {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -112,11 +113,11 @@ nav ul li a:hover {
     gap: 40px;
 }
 
-.Questions-content-1 h3{
+.Questions-content-1 h3 {
     margin-bottom: 15px;
 }
 
-.Questions-content-2{
+.Questions-content-2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -125,7 +126,8 @@ nav ul li a:hover {
     padding: 30px;
     gap: 40px;
 }
-.Questions-content-2 h3{
+
+.Questions-content-2 h3 {
     margin-bottom: 15px;
 }
 
@@ -139,7 +141,8 @@ nav ul li a:hover {
     justify-content: center;
     gap: 1em;
 }
-.About h1{
+
+.About h1 {
     margin-bottom: 20px;
 
 }
@@ -154,11 +157,11 @@ nav ul li a:hover {
 
 }
 
-.About .aside h1{
+.About .aside h1 {
     font-size: 38px;
 }
 
-.About .aside h3{
+.About .aside h3 {
     margin: 10px 0 20px 0;
 }
 
@@ -169,14 +172,14 @@ nav ul li a:hover {
 
 }
 
-.About .c h3{
+.About .c h3 {
     margin: 10px 0 20px 0;
 }
 
 .About .c .box {
     width: 700px;
     height: 700px;
-    box-shadow: 4px 4px  rgb(0, 0, 0, 0.1);
+    box-shadow: 4px 4px rgb(0, 0, 0, 0.1);
 }
 
 .Contact {
@@ -191,16 +194,17 @@ nav ul li a:hover {
     gap: 100px;
     width: 100%;
 }
-.Contact h1{
+
+.Contact h1 {
     font-size: 38px;
 }
 
-.Contact h2{
+.Contact h2 {
     margin: 10px;
 
 }
 
-.form-content{
+.form-content {
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -209,14 +213,17 @@ nav ul li a:hover {
     justify-content: space-evenly;
     align-items: center;
 }
-.form-content h3{
+
+.form-content h3 {
     font-size: 30px;
 }
-.form-content label{
+
+.form-content label {
     margin-right: 5px;
     font-size: 20px;
 }
-.form-content input{
+
+.form-content input {
     margin-right: 5px;
     font-size: 18px;
     outline: none;
@@ -224,41 +231,43 @@ nav ul li a:hover {
     transition: border .5s ease;
     border-bottom: 2px solid rgb(0, 0, 0, 0.1);
 }
-.form-content textarea{
-   border: none;
-   outline: none;
-   border-bottom: 2px solid rgb(0, 0, 0, 0.1);
-   transition: border .5s ease;
+
+.form-content textarea {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.1);
+    transition: border .5s ease;
 }
-.form-content textarea:focus{
 
-    border-bottom: 2px solid rgb(0, 0, 0, 0.9);
- }
+.form-content textarea:focus {
 
-.form-content input:focus{
     border-bottom: 2px solid rgb(0, 0, 0, 0.9);
 }
 
-.form{
+.form-content input:focus {
+    border-bottom: 2px solid rgb(0, 0, 0, 0.9);
+}
+
+.form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.form input{
+.form input {
     width: 300px;
 
 }
 
 
-.Contact-content{
+.Contact-content {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 100px;
 }
 
-.Footer{
+.Footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -270,19 +279,22 @@ nav ul li a:hover {
     color: antiquewhite;
     font-size: 20px;
 }
+
 .Footer .social {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 10px;
-    
+
 }
-.Footer .social .box{
+
+.Footer .social .box {
     width: 40px;
     height: 40px;
-    box-shadow: 4px 4px  rgba(255, 255, 255, 0.1);
+    box-shadow: 4px 4px rgba(255, 255, 255, 0.1);
 }
-.Footer .social .box:hover{
+
+.Footer .social .box:hover {
     cursor: pointer;
 }
 
@@ -297,7 +309,7 @@ nav ul li a:hover {
 
 }
 
-.Shop-Section h1{
+.Shop-Section h1 {
     font-size: 38px;
 }
 
@@ -310,9 +322,10 @@ nav ul li a:hover {
     gap: 10px;
     padding: 0 19px 0 0;
     margin: 10px;
-    
+
 }
-.Card img:hover{
+
+.Card img:hover {
     object-fit: scale-down;
     transform: scale(0.8);
     cursor: pointer;
@@ -322,8 +335,8 @@ nav ul li a:hover {
     background-color: #91bee2;
     width: 300px;
     height: 300px;
-    box-shadow: 4px 4px  rgb(0, 0, 0, 0.1);
-    transition:transform .5s ease
+    box-shadow: 4px 4px rgb(0, 0, 0, 0.1);
+    transition: transform .5s ease
 }
 
 .Button {
@@ -370,7 +383,8 @@ nav ul li a:hover {
 .c {
     grid-area: c;
 }
-.thanks{
+
+.thanks {
     color: rgb(218, 102, 102);
 }
 
@@ -380,6 +394,7 @@ nav ul li a:hover {
     height: 510px;
     width: 770px;
 }
+
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
@@ -387,7 +402,79 @@ nav ul li a:hover {
     width: 770px;
 }
 
-.Buy-shoes{
-    
+.Buy-shoes {
+    height: 90vh;
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
+.Buy-container .box {
+    width: 500px;
+    height: 500px;
+}
+
+.Buy-container {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Buy-name h2 {
+    width: 300px;
+    color: rgb(92, 92, 92);
+    border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+}
+.Buy-Quantity{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    color: rgb(92, 92, 92);
+    border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+    gap: 10px;
+}
+.Buy-Quantity input{
+    font-size: 20px;
+    margin-left: 20px;
+    width: 40px;
+    outline: none;
+    border: none;
+}
+
+.Buy-Price{
+    display: flex;
+    flex-direction: row;
+    color: rgb(92, 92, 92);
+    border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+    gap: 10px;
+    align-items: center;
+}
+.buttons-Buy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.buttons-Buy button{
+    font-size: 15px;
+    border: none;
+    border-radius: 400px;
+    padding: 20px 10px 20px 10px;
+}
+.buttons-Buy button:hover{
+    background-color: #212121;
+    color: antiquewhite;
+   cursor: pointer;
+}
+.Buy-Description{
+    width: 300px;
+    text-align: justify;
+}
